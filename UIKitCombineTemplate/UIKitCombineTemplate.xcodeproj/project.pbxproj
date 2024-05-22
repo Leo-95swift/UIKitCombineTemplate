@@ -14,6 +14,8 @@
 		013220682BFDD5FE00F3A2E9 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 013220672BFDD5FE00F3A2E9 /* Colors.xcassets */; };
 		0132206D2BFDD65100F3A2E9 /* SignInViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0132206C2BFDD65100F3A2E9 /* SignInViewModel.swift */; };
 		0132206F2BFDD69200F3A2E9 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0132206E2BFDD69200F3A2E9 /* SignInViewController.swift */; };
+		013220762BFDDA4B00F3A2E9 /* CancellableSignInViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013220752BFDDA4B00F3A2E9 /* CancellableSignInViewModel.swift */; };
+		013220782BFDDA6600F3A2E9 /* CancellableSignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013220772BFDDA6600F3A2E9 /* CancellableSignInView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		013220672BFDD5FE00F3A2E9 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 		0132206C2BFDD65100F3A2E9 /* SignInViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewModel.swift; sourceTree = "<group>"; };
 		0132206E2BFDD69200F3A2E9 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		013220752BFDDA4B00F3A2E9 /* CancellableSignInViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CancellableSignInViewModel.swift; sourceTree = "<group>"; };
+		013220772BFDDA6600F3A2E9 /* CancellableSignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CancellableSignInView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +93,7 @@
 			isa = PBXGroup;
 			children = (
 				013220662BFDD58E00F3A2E9 /* SignInModule */,
+				013220712BFDD9FC00F3A2E9 /* CancellableSignInModule */,
 			);
 			path = Modules;
 			sourceTree = "<group>";
@@ -120,6 +125,39 @@
 			sourceTree = "<group>";
 		};
 		0132206B2BFDD62300F3A2E9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		013220712BFDD9FC00F3A2E9 /* CancellableSignInModule */ = {
+			isa = PBXGroup;
+			children = (
+				013220742BFDDA1600F3A2E9 /* Model */,
+				013220732BFDDA1000F3A2E9 /* View */,
+				013220722BFDDA0A00F3A2E9 /* ViewModel */,
+			);
+			path = CancellableSignInModule;
+			sourceTree = "<group>";
+		};
+		013220722BFDDA0A00F3A2E9 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				013220752BFDDA4B00F3A2E9 /* CancellableSignInViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		013220732BFDDA1000F3A2E9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				013220772BFDDA6600F3A2E9 /* CancellableSignInView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		013220742BFDDA1600F3A2E9 /* Model */ = {
 			isa = PBXGroup;
 			children = (
 			);
@@ -199,6 +237,8 @@
 			files = (
 				0132206D2BFDD65100F3A2E9 /* SignInViewModel.swift in Sources */,
 				013220502BFDD4E000F3A2E9 /* AppDelegate.swift in Sources */,
+				013220762BFDDA4B00F3A2E9 /* CancellableSignInViewModel.swift in Sources */,
+				013220782BFDDA6600F3A2E9 /* CancellableSignInView.swift in Sources */,
 				013220522BFDD4E000F3A2E9 /* SceneDelegate.swift in Sources */,
 				0132206F2BFDD69200F3A2E9 /* SignInViewController.swift in Sources */,
 			);
