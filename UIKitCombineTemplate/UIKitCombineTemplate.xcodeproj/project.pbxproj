@@ -16,6 +16,9 @@
 		0132206F2BFDD69200F3A2E9 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0132206E2BFDD69200F3A2E9 /* SignInViewController.swift */; };
 		013220762BFDDA4B00F3A2E9 /* CancellableSignInViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013220752BFDDA4B00F3A2E9 /* CancellableSignInViewModel.swift */; };
 		013220782BFDDA6600F3A2E9 /* CancellableSignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013220772BFDDA6600F3A2E9 /* CancellableSignInView.swift */; };
+		0132207E2BFDDBEC00F3A2E9 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0132207D2BFDDBEC00F3A2E9 /* Product.swift */; };
+		013220802BFDDBFC00F3A2E9 /* MultiplePipelineViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0132207F2BFDDBFC00F3A2E9 /* MultiplePipelineViewModel.swift */; };
+		013220822BFDDC1700F3A2E9 /* MultiplePipelineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013220812BFDDC1700F3A2E9 /* MultiplePipelineView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +33,9 @@
 		0132206E2BFDD69200F3A2E9 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		013220752BFDDA4B00F3A2E9 /* CancellableSignInViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CancellableSignInViewModel.swift; sourceTree = "<group>"; };
 		013220772BFDDA6600F3A2E9 /* CancellableSignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CancellableSignInView.swift; sourceTree = "<group>"; };
+		0132207D2BFDDBEC00F3A2E9 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		0132207F2BFDDBFC00F3A2E9 /* MultiplePipelineViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiplePipelineViewModel.swift; sourceTree = "<group>"; };
+		013220812BFDDC1700F3A2E9 /* MultiplePipelineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiplePipelineView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +100,7 @@
 			children = (
 				013220662BFDD58E00F3A2E9 /* SignInModule */,
 				013220712BFDD9FC00F3A2E9 /* CancellableSignInModule */,
+				013220792BFDDBB900F3A2E9 /* MultiplePipelineModule */,
 			);
 			path = Modules;
 			sourceTree = "<group>";
@@ -160,6 +167,40 @@
 		013220742BFDDA1600F3A2E9 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		013220792BFDDBB900F3A2E9 /* MultiplePipelineModule */ = {
+			isa = PBXGroup;
+			children = (
+				0132207C2BFDDBDD00F3A2E9 /* Model */,
+				0132207B2BFDDBD900F3A2E9 /* View */,
+				0132207A2BFDDBC600F3A2E9 /* ViewModel */,
+			);
+			path = MultiplePipelineModule;
+			sourceTree = "<group>";
+		};
+		0132207A2BFDDBC600F3A2E9 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				0132207F2BFDDBFC00F3A2E9 /* MultiplePipelineViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		0132207B2BFDDBD900F3A2E9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				013220812BFDDC1700F3A2E9 /* MultiplePipelineView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0132207C2BFDDBDD00F3A2E9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0132207D2BFDDBEC00F3A2E9 /* Product.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -235,12 +276,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				013220802BFDDBFC00F3A2E9 /* MultiplePipelineViewModel.swift in Sources */,
 				0132206D2BFDD65100F3A2E9 /* SignInViewModel.swift in Sources */,
 				013220502BFDD4E000F3A2E9 /* AppDelegate.swift in Sources */,
 				013220762BFDDA4B00F3A2E9 /* CancellableSignInViewModel.swift in Sources */,
 				013220782BFDDA6600F3A2E9 /* CancellableSignInView.swift in Sources */,
+				013220822BFDDC1700F3A2E9 /* MultiplePipelineView.swift in Sources */,
 				013220522BFDD4E000F3A2E9 /* SceneDelegate.swift in Sources */,
 				0132206F2BFDD69200F3A2E9 /* SignInViewController.swift in Sources */,
+				0132207E2BFDDBEC00F3A2E9 /* Product.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
