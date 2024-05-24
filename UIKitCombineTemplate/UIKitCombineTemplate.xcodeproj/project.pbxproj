@@ -19,6 +19,16 @@
 		0132207E2BFDDBEC00F3A2E9 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0132207D2BFDDBEC00F3A2E9 /* Product.swift */; };
 		013220802BFDDBFC00F3A2E9 /* MultiplePipelineViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0132207F2BFDDBFC00F3A2E9 /* MultiplePipelineViewModel.swift */; };
 		013220822BFDDC1700F3A2E9 /* MultiplePipelineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013220812BFDDC1700F3A2E9 /* MultiplePipelineView.swift */; };
+		013220FC2C0082F200F3A2E9 /* EmptyPublisherViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013220FB2C0082F200F3A2E9 /* EmptyPublisherViewModel.swift */; };
+		013220FE2C00836400F3A2E9 /* EmptyPublisherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013220FD2C00836400F3A2E9 /* EmptyPublisherViewController.swift */; };
+		013221042C00846300F3A2E9 /* FailPublisherViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013221032C00846300F3A2E9 /* FailPublisherViewModel.swift */; };
+		013221062C00847F00F3A2E9 /* InvalidInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013221052C00847F00F3A2E9 /* InvalidInput.swift */; };
+		013221082C0084BC00F3A2E9 /* FailPublisherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013221072C0084BC00F3A2E9 /* FailPublisherViewController.swift */; };
+		0132210D2C00858300F3A2E9 /* FuturePublisherViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0132210C2C00858300F3A2E9 /* FuturePublisherViewModel.swift */; };
+		013221102C00859E00F3A2E9 /* PrimeCheckingError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0132210F2C00859E00F3A2E9 /* PrimeCheckingError.swift */; };
+		013221122C0085B100F3A2E9 /* FuturePublisherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013221112C0085B100F3A2E9 /* FuturePublisherView.swift */; };
+		013221172C00866B00F3A2E9 /* JustSequenceViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013221162C00866B00F3A2E9 /* JustSequenceViewModel.swift */; };
+		0132211A2C0086A400F3A2E9 /* JustSequenceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013221192C0086A400F3A2E9 /* JustSequenceView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +46,16 @@
 		0132207D2BFDDBEC00F3A2E9 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 		0132207F2BFDDBFC00F3A2E9 /* MultiplePipelineViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiplePipelineViewModel.swift; sourceTree = "<group>"; };
 		013220812BFDDC1700F3A2E9 /* MultiplePipelineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiplePipelineView.swift; sourceTree = "<group>"; };
+		013220FB2C0082F200F3A2E9 /* EmptyPublisherViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyPublisherViewModel.swift; sourceTree = "<group>"; };
+		013220FD2C00836400F3A2E9 /* EmptyPublisherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyPublisherViewController.swift; sourceTree = "<group>"; };
+		013221032C00846300F3A2E9 /* FailPublisherViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FailPublisherViewModel.swift; sourceTree = "<group>"; };
+		013221052C00847F00F3A2E9 /* InvalidInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvalidInput.swift; sourceTree = "<group>"; };
+		013221072C0084BC00F3A2E9 /* FailPublisherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FailPublisherViewController.swift; sourceTree = "<group>"; };
+		0132210C2C00858300F3A2E9 /* FuturePublisherViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FuturePublisherViewModel.swift; sourceTree = "<group>"; };
+		0132210F2C00859E00F3A2E9 /* PrimeCheckingError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimeCheckingError.swift; sourceTree = "<group>"; };
+		013221112C0085B100F3A2E9 /* FuturePublisherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FuturePublisherView.swift; sourceTree = "<group>"; };
+		013221162C00866B00F3A2E9 /* JustSequenceViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JustSequenceViewModel.swift; sourceTree = "<group>"; };
+		013221192C0086A400F3A2E9 /* JustSequenceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JustSequenceView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,9 +118,8 @@
 		013220652BFDD58600F3A2E9 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
-				013220662BFDD58E00F3A2E9 /* SignInModule */,
-				013220712BFDD9FC00F3A2E9 /* CancellableSignInModule */,
-				013220792BFDDBB900F3A2E9 /* MultiplePipelineModule */,
+				013220F52C00824700F3A2E9 /* Tasks_1-5_Module */,
+				013220F62C00826000F3A2E9 /* Tasks_6-9_Module */,
 			);
 			path = Modules;
 			sourceTree = "<group>";
@@ -205,6 +224,161 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		013220F52C00824700F3A2E9 /* Tasks_1-5_Module */ = {
+			isa = PBXGroup;
+			children = (
+				013220662BFDD58E00F3A2E9 /* SignInModule */,
+				013220712BFDD9FC00F3A2E9 /* CancellableSignInModule */,
+				013220792BFDDBB900F3A2E9 /* MultiplePipelineModule */,
+			);
+			path = "Tasks_1-5_Module";
+			sourceTree = "<group>";
+		};
+		013220F62C00826000F3A2E9 /* Tasks_6-9_Module */ = {
+			isa = PBXGroup;
+			children = (
+				013220F72C00829500F3A2E9 /* EmptyPublisherModule */,
+				013220FF2C00842C00F3A2E9 /* FailPublisherModule */,
+				013221092C00853F00F3A2E9 /* FuturePublisherModule */,
+				013221132C0085D300F3A2E9 /* JustSequenceModule */,
+			);
+			path = "Tasks_6-9_Module";
+			sourceTree = "<group>";
+		};
+		013220F72C00829500F3A2E9 /* EmptyPublisherModule */ = {
+			isa = PBXGroup;
+			children = (
+				013220FA2C0082CA00F3A2E9 /* Model */,
+				013220F92C0082C400F3A2E9 /* View */,
+				013220F82C0082B700F3A2E9 /* ViewModel */,
+			);
+			path = EmptyPublisherModule;
+			sourceTree = "<group>";
+		};
+		013220F82C0082B700F3A2E9 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				013220FB2C0082F200F3A2E9 /* EmptyPublisherViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		013220F92C0082C400F3A2E9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				013220FD2C00836400F3A2E9 /* EmptyPublisherViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		013220FA2C0082CA00F3A2E9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		013220FF2C00842C00F3A2E9 /* FailPublisherModule */ = {
+			isa = PBXGroup;
+			children = (
+				013221022C00845200F3A2E9 /* Model */,
+				013221012C00844700F3A2E9 /* View */,
+				013221002C00844200F3A2E9 /* ViewModel */,
+			);
+			path = FailPublisherModule;
+			sourceTree = "<group>";
+		};
+		013221002C00844200F3A2E9 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				013221032C00846300F3A2E9 /* FailPublisherViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		013221012C00844700F3A2E9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				013221072C0084BC00F3A2E9 /* FailPublisherViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		013221022C00845200F3A2E9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				013221052C00847F00F3A2E9 /* InvalidInput.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		013221092C00853F00F3A2E9 /* FuturePublisherModule */ = {
+			isa = PBXGroup;
+			children = (
+				0132210E2C00859000F3A2E9 /* Model */,
+				0132210B2C00856500F3A2E9 /* View */,
+				0132210A2C00855600F3A2E9 /* ViewModel */,
+			);
+			path = FuturePublisherModule;
+			sourceTree = "<group>";
+		};
+		0132210A2C00855600F3A2E9 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				0132210C2C00858300F3A2E9 /* FuturePublisherViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		0132210B2C00856500F3A2E9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				013221112C0085B100F3A2E9 /* FuturePublisherView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0132210E2C00859000F3A2E9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0132210F2C00859E00F3A2E9 /* PrimeCheckingError.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		013221132C0085D300F3A2E9 /* JustSequenceModule */ = {
+			isa = PBXGroup;
+			children = (
+				013221152C0085EA00F3A2E9 /* Model */,
+				013221182C00867700F3A2E9 /* View */,
+				013221142C0085E500F3A2E9 /* ViewModel */,
+			);
+			path = JustSequenceModule;
+			sourceTree = "<group>";
+		};
+		013221142C0085E500F3A2E9 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				013221162C00866B00F3A2E9 /* JustSequenceViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		013221152C0085EA00F3A2E9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		013221182C00867700F3A2E9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				013221192C0086A400F3A2E9 /* JustSequenceView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -276,15 +450,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				013220FE2C00836400F3A2E9 /* EmptyPublisherViewController.swift in Sources */,
 				013220802BFDDBFC00F3A2E9 /* MultiplePipelineViewModel.swift in Sources */,
+				0132210D2C00858300F3A2E9 /* FuturePublisherViewModel.swift in Sources */,
+				013221122C0085B100F3A2E9 /* FuturePublisherView.swift in Sources */,
+				0132211A2C0086A400F3A2E9 /* JustSequenceView.swift in Sources */,
+				013220FC2C0082F200F3A2E9 /* EmptyPublisherViewModel.swift in Sources */,
 				0132206D2BFDD65100F3A2E9 /* SignInViewModel.swift in Sources */,
 				013220502BFDD4E000F3A2E9 /* AppDelegate.swift in Sources */,
+				013221102C00859E00F3A2E9 /* PrimeCheckingError.swift in Sources */,
 				013220762BFDDA4B00F3A2E9 /* CancellableSignInViewModel.swift in Sources */,
 				013220782BFDDA6600F3A2E9 /* CancellableSignInView.swift in Sources */,
 				013220822BFDDC1700F3A2E9 /* MultiplePipelineView.swift in Sources */,
+				013221062C00847F00F3A2E9 /* InvalidInput.swift in Sources */,
 				013220522BFDD4E000F3A2E9 /* SceneDelegate.swift in Sources */,
+				013221042C00846300F3A2E9 /* FailPublisherViewModel.swift in Sources */,
+				013221082C0084BC00F3A2E9 /* FailPublisherViewController.swift in Sources */,
 				0132206F2BFDD69200F3A2E9 /* SignInViewController.swift in Sources */,
 				0132207E2BFDDBEC00F3A2E9 /* Product.swift in Sources */,
+				013221172C00866B00F3A2E9 /* JustSequenceViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
